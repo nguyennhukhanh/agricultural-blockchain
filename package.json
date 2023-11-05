@@ -1,0 +1,37 @@
+{
+  "name": "agricultural-blockchain",
+  "author": {
+    "name": "Nguyen Nhu Khanh",
+    "email": "nhukhanh.dev@gmail.com"
+  },
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "goerli": "yarn hardhat run scripts/deploy.ts --network goerli",
+    "n": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^1.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@nomicfoundation/hardhat-viem": "^1.0.0",
+    "@types/chai": "^4.3.9",
+    "@types/chai-as-promised": "^7.1.7",
+    "@types/mocha": "^10.0.3",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.18.3",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "viem": "^1.18.3"
+  },
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "typechain": "^8.3.2"
+  }
+}
